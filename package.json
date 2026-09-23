@@ -1,0 +1,54 @@
+{
+  "name": "@thatopen/ui-obc",
+  "description": "Collection of web components (UI components) implementations to use with @thatopen/components.",
+  "version": "3.4.2",
+  "author": "That Open Company",
+  "contributors": [
+    "Juan Hoyos (https://github.com/HoyosJuan)"
+  ],
+  "keywords": [
+    "bim",
+    "ui",
+    "components",
+    "ribbon",
+    "toolbar"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ThatOpen/engine_ui-components/tree/main/packages/ui-components-obc#readme",
+  "bugs": {
+    "url": "https://github.com/ThatOpen/engine_ui-components/issues"
+  },
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThatOpen/engine_ui-components/tree/main/packages/ui-components-obc.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@thatopen/ui": "~3.4.0",
+    "lit": "3.3.1"
+  },
+  "peerDependencies": {
+    "@thatopen/components": "~3.4.0",
+    "@thatopen/components-front": "~3.4.0",
+    "@thatopen/fragments": "~3.4.0",
+    "three": ">=0.182.0",
+    "web-ifc": ">=0.0.77"
+  },
+  "structuraBuild": {
+    "repository": "ThatOpen/engine_ui-components",
+    "commit": "bce513e83d1a03d05f162cec8b932260a647db11",
+    "manifestChanges": [
+      "scripts and devDependencies removed",
+      "peerDependencies.three relaxed from 0.185.0 to >=0.182.0 (same as npm 3.4.2)"
+    ]
+  }
+}
