@@ -37,9 +37,9 @@
     "lit": "3.3.1"
   },
   "peerDependencies": {
-    "@thatopen/components": "~3.4.0",
-    "@thatopen/components-front": "~3.4.0",
-    "@thatopen/fragments": "~3.4.0",
+    "@thatopen/components": ">=3.4.0",
+    "@thatopen/components-front": ">=3.4.0",
+    "@thatopen/fragments": ">=3.4.0",
     "three": ">=0.182.0",
     "web-ifc": ">=0.0.77"
   },
@@ -48,7 +48,8 @@
     "commit": "bce513e83d1a03d05f162cec8b932260a647db11",
     "manifestChanges": [
       "scripts and devDependencies removed",
-      "peerDependencies.three relaxed from 0.185.0 to >=0.182.0 (same as npm 3.4.2)"
+      "peerDependencies.three relaxed from 0.185.0 to >=0.182.0 (same as npm 3.4.2)",
+      "peerDependencies @thatopen/components, components-front, fragments relaxed from ~3.4.0 to >=3.4.0 (3.5 beta compatibility)"
     ]
   }
 }
